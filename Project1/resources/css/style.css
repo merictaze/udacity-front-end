@@ -1,0 +1,64 @@
+@media screen and (min-width: 850px) {
+  #main, footer {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+  background-color: white;
+  color: #333;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+
+footer {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  padding: 15px 25px;
+  text-align: right;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  color: #ef6518
+}
+
+header h1, h5 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.udacity-logo {
+  display: inline-block;
+  max-height: 100%;
+  width: 60px;
+}
+
+p {
+  margin: 0;
+}
+
+/* Portfolio */
+.portfolio-item {
+  margin-bottom: 50px;
+}
+
+.img-portfolio {
+  max-width: 40%;
+}
+
+.img-heading {
+  display: block;
+  width: 100%;
+}
