@@ -8,38 +8,51 @@
     <link rel="stylesheet" href="resources/css/style.css">
   </head>
   <body>
-    <header>
-      <img class="udacity-logo pull-left" src="resources/img/udacity.png" alt="Udacity Logo">
-      <h1>Meric Taze</h1>
-      <h5>Software Developer</h5>
-    </header>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img class="brand-logo" src="resources/img/udacity.png" alt="Udacity Logo">
+          </a>
+        </div>
+        <div class="navbar-right">
+          <h2>Meric Taze</h2>
+          <h5>Software Developer</h5>
+        </div>
+      </div>
+    </nav>
 
     <section class="container" id="main">
-      <img class="img-heading" src="resources/img/heading.jpg" alt="Heading image">
+      <img class="img-responsive" src="resources/img/heading.jpg" srcset="resources/img/heading.jpg 640w, resources/img/heading_small.jpg 320w" alt="Heading image">
       <h2>Portfolio</h2>
       <div class="row text-center">
         <div class="col-sm-6 col-md-4 portfolio-item">
-          <img class="img-portfolio" src="resources/img/project_stanbol.png"  alt="Stanbol">
+          <img class="img-responsive-50" src="resources/img/project_stanbol.png" srcset="resources/img/project_stanbol.png 640w, resources/img/project_stanbol_small.png 320w" alt="Stanbol">
           <h3>Apache Stanbol</h3>
           <p>An Apache Project which provides a set of reusable components for semantic content management. </p>
           <p><a href="http://stanbol.apache.org/" class="btn btn-default" role="button">More</a></p>
         </div>
         <div class="col-sm-6 col-md-4 portfolio-item">
-          <img class="img-portfolio" src="resources/img/project_lingpeer.png" alt="Lingpeer">
+          <img class="img-responsive-50" src="resources/img/project_lingpeer.png" srcset="resources/img/project_lingpeer.png 640w, resources/img/project_lingpeer_small.png 320w" alt="Lingpeer">
           <h3>Ling Peer</h3>
           <p>A Web Application to get thousands of language learners together and exchange their native languages with the help of text, audio/video chat</p>
           <p><a href="http://www.lingpeer.com/" class="btn btn-default" role="button">More</a></p>
         </div>
-        <div class="clearfix visible-sm"></div>
+        
+        <div class="clearfix visible-sm-block"></div>
+        
         <div class="col-sm-6 col-md-4 portfolio-item">
-          <img class="img-portfolio" src="resources/img/project_phraseteacher.png" alt="PhreaseTeacher">
+          <img class="img-responsive-50" src="resources/img/project_phraseteacher.png" srcset="resources/img/project_phraseteacher.png 640w, resources/img/project_phraseteacher_small.png 320w" alt="PhreaseTeacher">
           <h3>Phrase Teacher</h3>
           <p>An Android Application for English learners which teaches daily phrases with the features listen, record, play and test with speech recognition</p>
           <p><a href="https://play.google.com/store/apps/details?id=com.lingstack.phraseteacher" class="btn btn-default" role="button">More</a></p>
         </div>
-        <div class="clearfix visible-md"></div>
+
+        <div class="clearfix visible-md-block"></div>
+
         <div class="col-sm-6 col-md-4 portfolio-item">
-          <img class="img-portfolio" src="resources/img/project_devcloud.png" alt="DevCloud">
+          <img class="img-responsive-50" src="resources/img/project_devcloud.png" srcset="resources/img/project_devcloud.png 640w, resources/img/project_devcloud_small.png 320w" alt="DevCloud">
           <h3>DevCloud</h3>
           <p>A Web Application which combines facilities of general purpose IDE and cloud computing in a modular manner to allow users to design, compile, and debug their projects without any requirement in the cloud.</p>
           <p><a href="http://www.ceng.metu.edu.tr/~e1679216/" class="btn btn-default" role="button">More</a></p>
@@ -50,5 +63,6 @@
     <footer class="footer">
       <p>© Meric Taze - 2015</p>
     </footer>
+
   </body>
 </html>
